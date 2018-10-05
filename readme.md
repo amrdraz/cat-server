@@ -1,5 +1,7 @@
 # Cat API - 3yourmind task
 
+An server that forwards 5 random cat iamges from a cat API service and caches the API using a changable cache interface and API service.
+
 ### Getting Started
 
 ```bash
@@ -66,3 +68,8 @@ Image File
 
 Example:
 ![Cute Cate](./example.jpeg)
+
+## Possible Future Work
+
+- Implement Redis adaptor, trivial but didn't want to add a hard dependency
+- use Streams in both caching and data fetching in order to be able to serve the user the image while it's being cached
