@@ -1,6 +1,6 @@
 # Cat API - 3yourmind task
 
-An server that forwards 5 random cat iamges from a cat API service and caches the API using a changable cache interface and API service.
+A server that forwards 5 random cat images from a cat API service and caches the API using a changable cache interface and API service.
 
 ### Getting Started
 
@@ -11,7 +11,7 @@ npm run dev
 
 Visit `http://localhost:3000/api/v1/cats/cute` to see expected JSON response.
 
-Visit `http://localhost:3000/api/v1/cats/cute/0` to see cached image
+Visit `http://localhost:3000/api/v1/cats/cute/0` to see a cached image
 
 By default config sets cache to 10 seconds
 
@@ -44,7 +44,7 @@ PARAMS
 
 - `tag` `string` `required`
 - `base64` `boolean` `optional` `default:false`
-- `tag` `string` `optional` `default:5`
+- `size` `string` `optional` `default:5`
 
 RESPONSE `200`
 
@@ -66,10 +66,12 @@ RESPONSE `200`
 
 Image File
 
-Example:
+Example
+
 ![Cute Cate](./example.jpeg)
 
 ## Possible Future Work
 
+- Use dotenv for config
 - Implement Redis adaptor, trivial but didn't want to add a hard dependency
 - use Streams in both caching and data fetching in order to be able to serve the user the image while it's being cached
