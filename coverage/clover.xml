@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1538763131436" clover="3.2.0">
+  <project timestamp="1538763131436" name="All files">
+    <metrics statements="220" coveredstatements="214" conditionals="68" coveredconditionals="63" methods="71" coveredmethods="68" elements="359" coveredelements="345" complexity="0" loc="220" ncloc="220" packages="12" files="24" classes="24">
+      <package name="dist">
+        <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="app.js" path="/Users/draz/tasks/3yourmind/dist/app.js">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+        </file>
+        <file name="config.js" path="/Users/draz/tasks/3yourmind/dist/config.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="5" type="stmt"/>
+          <line num="3" count="5" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="5" count="5" type="stmt"/>
+          <line num="6" count="5" type="stmt"/>
+        </file>
+        <file name="utils.js" path="/Users/draz/tasks/3yourmind/dist/utils.js">
+          <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="dist.routes">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/Users/draz/tasks/3yourmind/dist/routes/index.js">
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+        <file name="routes.js" path="/Users/draz/tasks/3yourmind/dist/routes/routes.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="dist.routes.cats">
+        <metrics statements="24" coveredstatements="23" conditionals="9" coveredconditionals="9" methods="10" coveredmethods="9"/>
+        <file name="cats.js" path="/Users/draz/tasks/3yourmind/dist/routes/cats/cats.js">
+          <metrics statements="17" coveredstatements="16" conditionals="9" coveredconditionals="9" methods="10" coveredmethods="9"/>
+          <line num="2" count="2" type="cond" truecount="3" falsecount="0"/>
+          <line num="3" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="7" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="26" count="2" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/draz/tasks/3yourmind/dist/routes/cats/index.js">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="dist.service.cache">
+        <metrics statements="25" coveredstatements="24" conditionals="19" coveredconditionals="18" methods="17" coveredmethods="16"/>
+        <file name="file-cache.adapter.js" path="/Users/draz/tasks/3yourmind/dist/service/cache/file-cache.adapter.js">
+          <metrics statements="21" coveredstatements="20" conditionals="19" coveredconditionals="18" methods="17" coveredmethods="16"/>
+          <line num="2" count="4" type="cond" truecount="3" falsecount="0"/>
+          <line num="3" count="38" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="8" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="46" type="cond" truecount="2" falsecount="0"/>
+          <line num="7" count="38" type="cond" truecount="2" falsecount="0"/>
+          <line num="10" count="4" type="stmt"/>
+          <line num="11" count="4" type="stmt"/>
+          <line num="12" count="4" type="stmt"/>
+          <line num="15" count="4" type="stmt"/>
+          <line num="16" count="4" type="stmt"/>
+          <line num="19" count="27" type="stmt"/>
+          <line num="20" count="27" type="cond" truecount="2" falsecount="0"/>
+          <line num="24" count="6" type="stmt"/>
+          <line num="25" count="6" type="cond" truecount="3" falsecount="1"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="34" count="4" type="stmt"/>
+          <line num="35" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="39" count="4" type="stmt"/>
+          <line num="40" count="4" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/draz/tasks/3yourmind/dist/service/cache/index.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="7" count="4" type="stmt"/>
+          <line num="8" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="dist.service.cats">
+        <metrics statements="34" coveredstatements="32" conditionals="17" coveredconditionals="16" methods="15" coveredmethods="14"/>
+        <file name="catass.adapter.js" path="/Users/draz/tasks/3yourmind/dist/service/cats/catass.adapter.js">
+          <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="3" count="4" type="stmt"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="7" count="5" type="stmt"/>
+          <line num="8" count="5" type="stmt"/>
+          <line num="9" count="5" type="stmt"/>
+          <line num="10" count="5" type="stmt"/>
+          <line num="11" count="5" type="cond" truecount="1" falsecount="1"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="5" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/draz/tasks/3yourmind/dist/service/cats/index.js">
+          <metrics statements="22" coveredstatements="21" conditionals="15" coveredconditionals="15" methods="11" coveredmethods="10"/>
+          <line num="2" count="3" type="cond" truecount="3" falsecount="0"/>
+          <line num="3" count="29" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="31" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="60" type="cond" truecount="2" falsecount="0"/>
+          <line num="7" count="29" type="cond" truecount="2" falsecount="0"/>
+          <line num="10" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="16" count="6" type="stmt"/>
+          <line num="17" count="30" type="cond" truecount="2" falsecount="0"/>
+          <line num="22" count="3" type="stmt"/>
+          <line num="24" count="23" type="stmt"/>
+          <line num="25" count="23" type="stmt"/>
+          <line num="26" count="23" type="stmt"/>
+          <line num="27" count="23" type="cond" truecount="2" falsecount="0"/>
+          <line num="28" count="4" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+          <line num="31" count="23" type="stmt"/>
+          <line num="34" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="dist.test">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <file name="test-helper.js" path="/Users/draz/tasks/3yourmind/dist/test/test-helper.js">
+          <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="5" count="10" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="9" count="7" type="stmt"/>
+          <line num="10" count="7" type="stmt"/>
+          <line num="12" count="7" type="stmt"/>
+          <line num="14" count="7" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="src">
+        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="app.ts" path="/Users/draz/tasks/3yourmind/src/app.ts">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+        <file name="config.ts" path="/Users/draz/tasks/3yourmind/src/config.ts">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="5" type="stmt"/>
+          <line num="3" count="5" type="stmt"/>
+          <line num="4" count="5" type="stmt"/>
+          <line num="5" count="5" type="stmt"/>
+        </file>
+        <file name="utils.ts" path="/Users/draz/tasks/3yourmind/src/utils.ts">
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="index.ts" path="/Users/draz/tasks/3yourmind/src/routes/index.ts">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+        </file>
+        <file name="routes.ts" path="/Users/draz/tasks/3yourmind/src/routes/routes.ts">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.routes.cats">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="cats.ts" path="/Users/draz/tasks/3yourmind/src/routes/cats/cats.ts">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/draz/tasks/3yourmind/src/routes/cats/index.ts">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.service.cache">
+        <metrics statements="13" coveredstatements="13" conditionals="10" coveredconditionals="9" methods="7" coveredmethods="7"/>
+        <file name="file-cache.adapter.ts" path="/Users/draz/tasks/3yourmind/src/service/cache/file-cache.adapter.ts">
+          <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="9" methods="7" coveredmethods="7"/>
+          <line num="1" count="4" type="stmt"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="6" count="4" type="stmt"/>
+          <line num="15" count="4" type="stmt"/>
+          <line num="19" count="37" type="cond" truecount="2" falsecount="0"/>
+          <line num="22" count="2" type="cond" truecount="3" falsecount="1"/>
+          <line num="25" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="32" count="4" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/draz/tasks/3yourmind/src/service/cache/index.ts">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="27" count="4" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.service.cats">
+        <metrics statements="27" coveredstatements="25" conditionals="11" coveredconditionals="9" methods="8" coveredmethods="8"/>
+        <file name="catass.adapter.ts" path="/Users/draz/tasks/3yourmind/src/service/cats/catass.adapter.ts">
+          <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+          <line num="1" count="4" type="stmt"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="11" count="4" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="17" count="1" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/draz/tasks/3yourmind/src/service/cats/index.ts">
+          <metrics statements="17" coveredstatements="15" conditionals="9" coveredconditionals="8" methods="4" coveredmethods="4"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+          <line num="19" count="3" type="stmt"/>
+          <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="26" count="6" type="stmt"/>
+          <line num="28" count="30" type="stmt"/>
+          <line num="39" count="3" type="cond" truecount="1" falsecount="0"/>
+          <line num="40" count="10" type="cond" truecount="2" falsecount="0"/>
+          <line num="41" count="10" type="stmt"/>
+          <line num="49" count="3" type="stmt"/>
+          <line num="50" count="33" type="stmt"/>
+          <line num="51" count="33" type="stmt"/>
+          <line num="52" count="33" type="cond" truecount="1" falsecount="1"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="56" count="33" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.test">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <file name="test-helper.ts" path="/Users/draz/tasks/3yourmind/src/test/test-helper.ts">
+          <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="3" count="3" type="cond" truecount="1" falsecount="0"/>
+          <line num="4" count="10" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="8" count="7" type="stmt"/>
+          <line num="9" count="7" type="stmt"/>
+          <line num="11" count="7" type="stmt"/>
+          <line num="13" count="7" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

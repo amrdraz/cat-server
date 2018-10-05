@@ -1,0 +1,54 @@
+{
+  "name": "3ym-cat-task",
+  "version": "1.0.0",
+  "description": "A flexibly cached random Cat API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist",
+    "test": "jest --coverage",
+    "lint": "eslint src --ext ts",
+    "prettier": "prettier",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.1",
+    "persistent-cache": "^1.1.1",
+    "request": "^2.88.0",
+    "stream-to-buffer": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/jest": "^23.3.3",
+    "@types/mocha": "2.2.41",
+    "@types/node": "^10.11.4",
+    "@types/supertest": "^2.0.6",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4",
+    "prettier": "^1.14.3",
+    "supertest": "3.0.0",
+    "ts-jest": "^23.10.3",
+    "typescript": "^3.0.1",
+    "typescript-eslint-parser": "^19.0.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
