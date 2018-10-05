@@ -19,6 +19,8 @@ By default config sets cache to 10 seconds
 npm run dev
 ```
 
+> @types/mocha and @types/jest seem to bitch at each other but it doesn't affect the dev build, plus does not happen all the time so it was ignored
+
 ### Running tests
 
 ```bash
